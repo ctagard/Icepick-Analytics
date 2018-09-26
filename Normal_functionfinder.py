@@ -17,5 +17,4 @@ def normal(function1):
     for i in range(1, 101):
         j = a.subs(y, i)
         results.append(a.subs(y, i))
-return results;
-
+    return results;
