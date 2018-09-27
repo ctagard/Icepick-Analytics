@@ -24,6 +24,7 @@ allnormallines = normal(function1real)
 print(allnormallines)
 solutionsofroots = root_finder(allnormallines, function2real)
 x2 = solver(solutionsofroots)
+print(x2)
 finaldistance = final_distance(x2,funct1(y),funct2(y))
 print(finaldistance)
 
