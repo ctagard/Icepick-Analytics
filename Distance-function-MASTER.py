@@ -9,21 +9,12 @@ from Definitionsfunctions import functionone,functiontwo
 from Rootfinder import root_finder
 from PointX2solver import solver
 from finalDistance import final_distance
+from distance import distance
 x, y, z = symbols("x y z") #Define the symbols that we will be using
 
-a = str(functionone())
-b = str(functiontwo())
-function1real = sympify(a)
-function2real = sympify(b)
-def funct1(y):
-    return sympify(a)
-def funct2(y):
-    return sympify(b)
+function1a = functionone()
+function2a = functiontwo()
 
-allnormallines = normal(function1real)
-print(allnormallines)
-solutionsofroots = root_finder(allnormallines, function2real)
-x2 = solver(solutionsofroots)
-finaldistance = final_distance(x2,funct1(y),funct2(y))
-print(finaldistance)
+l = distance(function1a,function2a)
+
 
