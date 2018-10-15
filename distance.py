@@ -1,4 +1,4 @@
-from numpy import *
+
 from sympy import *
 from scipy import *
 from Normal_functionfinder import normal

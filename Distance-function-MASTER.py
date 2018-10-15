@@ -1,9 +1,7 @@
 #Cole Agard
 #Icepick Analytics MASTER 
 #9/23/2018
-from numpy import *
 from sympy import *
-from scipy import *
 from Normal_functionfinder import normal
 from Definitionsfunctions import functionone,functiontwo
 from Rootfinder import root_finder
@@ -15,6 +13,7 @@ x, y, z = symbols("x y z") #Define the symbols that we will be using
 function1a = functionone()
 function2a = functiontwo()
 
-l = distance(function1a,function2a)
+distance(function1a,function2a)
+
 
 
