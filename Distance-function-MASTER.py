@@ -15,5 +15,3 @@ function2a = functiontwo()
 
 distance(function1a,function2a)
 
-
-
